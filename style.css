@@ -1,0 +1,24 @@
+.container-fluid{
+    background-color:#3BCEAC;
+    height: 100vh;
+    animation: mymove 1s infinite;
+}
+.row{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+#link1{
+    font-family: 'Passion One', cursive;
+}
+.link>p{
+    font-family: 'Syne Mono', monospace;
+}
+@keyframes mymove {
+    0% {background-color:#3BCEAC;}
+    25%{background-color:#FF9FE5;}
+    50% {background-color:#FF858D;}
+    75% {background-color:#2B50AA;}
+    100% {background-color:#3BCEAC;}
+  }
